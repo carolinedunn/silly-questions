@@ -1,0 +1,64 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Get a silly question!",
+          "examplePhrases": [
+            "Alexa open silly questions",
+            "Alexa ask space facts for a fact",
+            "Alexa tell space facts to tell me trivia"
+          ],
+          "keywords": [
+            "questions"
+          ],
+          "name": "Silly Questions",
+          "description": "Ask for Space Facts, and learn about what really matters, like dark matter.\n\nSpace Facts provides fun the whole family can enjoy and is guaranteed to make you smarter.\n\nTo start, just say \"Alexa, launch Space Facts\" or \"Alexa, open Space Facts\" to get a fact\".\n\nAt anytime, you can stop by saying \"Alexa, stop\"",
+          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "very important to fill this out",
+      "category": "PARTY_GAMES",
+      "distributionMode": "PRIVATE",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:098412154266:function:5ad34c98-1efc-4d9e-a764-e8eb4008af31:Release_0"
+        },
+        "interfaces": [],
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:098412154266:function:5ad34c98-1efc-4d9e-a764-e8eb4008af31:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:098412154266:function:5ad34c98-1efc-4d9e-a764-e8eb4008af31:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:098412154266:function:5ad34c98-1efc-4d9e-a764-e8eb4008af31:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {}
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
